@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+background: linear-gradient(45deg, #8e2de2,#4a00e0);
+background-repeat: no-repeat;
+min-height: 100vh;
+min-width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    top: -25px;
+
+}
+
+p {
+ 
+    border: 1px solid;
+    width: 235px;
+    height: 45px;
+    text-align: right;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.29);
+    padding: 10px;
+}
+
+
+
+main {
+    background: white;
+    max-width: 350px;
+    min-height: 25vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+
+main button{
+width: 50px;
+height: 50px;
+border: none;
+margin: 3px;
+cursor: pointer;
+}
+
+main button:hover{
+background-color: #8e2de2;
+opacity: 0.8;
+}
+
+#igual {
+    height: 100px;
+}
+#zero{
+    width: 100px;
+}
+
+
